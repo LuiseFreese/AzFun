@@ -1,11 +1,10 @@
 # AzFun
 
-This repo contains material alongside of my session at Collabsummit 2021. I already [blogged about the solution on m365princess.com](https://www.m365princess.com/blogs/putting-fun-azure-functions-managed-identity-microsoft-graph/). 
+This repo contains material alongside of my session at Collabsummit 2021. I already [blogged about the solution on m365princess.com](https://www.m365princess.com/blogs/putting-fun-azure-functions-managed-identity-microsoft-graph/). Find the slides of my session on the `media` folder.
 
 ## Azure Function
 
- and other resources are deployed with a script, which but you can find in the `src` folder.
-
+and other resources are deployed with a script, which but you can find in the `src` folder.
 
 ## Custom connector
 
@@ -43,10 +42,12 @@ Then,
 - In the body provide the response of the request you sent. You can either obtain this from the Azure portal when you select your function and select **Test + Run** or you can obtain it from [Graph Explorer](https://aka.ms/ge) when you ran the Get groups sample.
 - Select **Import**
 
-Now, 
+Now,
 
 - Select **Create Connector**
 - Select **New connection** and provide the App key as API key
 - Select **Test operation** to test your connector.
 
 It can now be used in Power Apps and Power Automate.
+
+If you have any questions, please [reach out to me on twitter](https://twitter.com/LuiseFreese) 💖
